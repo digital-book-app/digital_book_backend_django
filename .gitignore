@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.sqlite3
+*.env
+.env.*
+.envrc
+
+# Django migrations
+**/migrations/**
+
+# Pycharm related files
+.idea/
+*.iml
+
+# If using virtualenvs
+venv/
+env/
+ENV/
+
+# Pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Test and Coverage Reports
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Static files for Django
+staticfiles/
+static/
+
+# Media files for Django
+media/
+
+# Local env files
+*.local
